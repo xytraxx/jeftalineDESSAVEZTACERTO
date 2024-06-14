@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #088C19;
 }
 
 .produtos li:hover h2 {
@@ -99,8 +99,9 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -117,7 +118,7 @@ form label, form legend {
 }
 
 .enviar {
-	width:40%;
+	width: 40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -144,54 +145,81 @@ thead {
 	font-weight: bold;
 }
 
-td, th {
+td,
+th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
 
-.banner{
+.banner {
 	width: 100%;
 }
 
-.titulo-principal{
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
 }
 
-.principal p{
+.principal p {
 	margin: 0 0 1em;
 }
 
-.principal strong{
+.principal strong {
 	font-weight: bold;
 }
 
-.principal em{
+.principal em {
 	font-style: italic;
 }
 
-.utensilios{
+.utensilios {
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
 }
 
-body{
-	font-family:"Montserrat" ,sans-serif ;
+body {
+	font-family: "Montserrat", sans-serif;
 }
 
-.mapa{
+.mapa {
 	padding: 3em 0;
 }
 
-.mapa p{
+.mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
 
-.video{
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens{
+	line-height: 1.5;
+
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.imagem-beneficios {
+	width: 60%;
+}
+
+.video {
 	width: 560px;
 	margin: 1em auto;
+
 }
